@@ -15,6 +15,10 @@ public class Calculator {
 	{
 		R = X + Y;
 	}
+	public void sub()
+	{
+		R = X - Y;
+	}
 	public void multiply()
 	{
 		R = X * Y;
@@ -68,6 +72,8 @@ public class Calculator {
 				m1.power();
 				m1.display();
 			//	break;
+				m1.sub();
+				m1.display();
 				
 			//default:
 			//	System.out.println("Invalid Input");
